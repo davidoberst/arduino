@@ -1,6 +1,6 @@
-int redLED = 13;
-int yellowLED = 12;
-int greenLED = 8;
+int redLED = 8;
+int yellowLED = 4;
+int greenLED = 2;
 
 
 void setup() {
