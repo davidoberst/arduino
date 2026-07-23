@@ -10,7 +10,32 @@ void setup() {
 }
 
 void loop() {
+ //ciclo de semaforo
+  
+  //encender rojo
+  
   digitalWrite(redLED,HIGH);
+  delay(8000);
+  digitalWrite(redLED,LOW); //esperar 3 segundos y luego pasar a amarillo
+   
+
+  
   digitalWrite(yellowLED,HIGH);
+  delay(4000);
+  digitalWrite(yellowLED,LOW);
+
+
+    
   digitalWrite(greenLED,HIGH);
+  delay(8000);
+  digitalWrite(greenLED,LOW);
+  
+
+
+
+
+
+
+
+  
 }
